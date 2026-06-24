@@ -1,0 +1,15 @@
+variable "cidr_vpc" {
+  default = "10.1.0.0/16"
+}
+
+variable "cidr_subnet" {
+  default = "10.1.0.0/24"
+}
+
+variable "availability_zone" {
+  default = "us-east-1a"
+}
+
+variable "environment_tag" {
+  default = "production"
+}
