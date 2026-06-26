@@ -8,13 +8,15 @@ default = "us-east-1"
 
 variable "Security_Group"{
     type = list
-    default = ["sg-02718ca0628b6182e", "sg-0b6ad9e2df22b477d", "sg-08317442a2ad694f5"]
+    default = [sg-24076, sg-90890, sg-456789]
 }
 
 variable "AMIS" {
     type = map
     default = {
-        us-east-1 = "ami-0b6d9d3d33ba97d99"
+        us-east-1 = "ami-0f40c8f97004632f9"
         us-east-2 = "ami-05692172625678b4e"
+        us-west-2 = "ami-0352d5a37fb4f603f"
+        us-west-1 = "ami-0f40c8f97004632f9"
     }
 }
