@@ -8,7 +8,7 @@ default = "us-east-1"
 
 variable "Security_Group"{
     type = list
-    default = ["sg-24076", "sg-90890", "sg-456789"]
+    default = ["sg-02718ca0628b6182e", "sg-0b6ad9e2df22b477d", "sg-08317442a2ad694f5"]
 }
 
 variable "AMIS" {
