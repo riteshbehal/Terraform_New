@@ -7,12 +7,12 @@ default = "us-east-1"
 }
 
 variable "Security_Group"{
-    type = list[string]
+    type = list(string)
     default = ["sg-24076", "sg-90890", "sg-456789"]
 }
 
 variable "AMIS" {
-    type = map
+    type = map(string)
     default = {
         us-east-1 = "ami-0f40c8f97004632f9"
         us-east-2 = "ami-05692172625678b4e"
