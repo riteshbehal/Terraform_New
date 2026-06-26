@@ -7,5 +7,5 @@ resource "aws_instance" "MyFirstInstnace" {
     Name = "demoinstnce"
   }
 
-  security_groups = var.Security_Group[0]
+  vpc_security_group_ids = [var.Security_Group[0]]
 }
