@@ -16,7 +16,6 @@ resource "aws_s3_bucket" "my_bucket" {
 
   tags = {
     Name        = var.bucket_name
-    Environment = var.environment
-    CreatedBy   = "Terraform"
+      CreatedBy   = "Terraform"
   }
 }
